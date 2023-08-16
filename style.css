@@ -1,0 +1,48 @@
+.container {
+  border: 2px solid firebrick;
+  height: 800px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  height: 100px;
+  background-color: red;
+  color: #fff;
+  text-align: center;
+  font-size: 2em;
+}
+.aside-left {
+  height: 200px;
+  background-color: green;
+  color: #fff;
+  text-align: center;
+  font-size: 2em;
+}
+.main {
+  height: 200px;
+  background-color: blue;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+}
+.aside-right {
+  height: 200px;
+  background-color: pink;
+  color: #fff;
+  text-align: center;
+  font-size: 2em;
+}
+.footer {
+  height: 100px;
+  background-color: purple;
+  color: #fff;
+  text-align: center;
+  font-size: 2em;
+}
+
+@media (max-width: 768px) {
+  .main {
+    color: black;
+  }
+}
